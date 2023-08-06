@@ -1,0 +1,121 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+/* #FFD56B #B3C890 #939B62 */
+
+@font-face {
+     font-family: "robotoSlab";
+     src: url(../fuentes/RobotoSlab-Regular.ttf);
+}
+
+/* HEADER*/
+header>nav>ul {
+     list-style-type: none;
+     text-align: right;
+     font-family: "robotoSlab";
+}
+
+header>nav>ul>li>a {
+     color: black;
+     text-decoration: none;
+     font-size: 30px;
+}
+
+header {
+     background-color: #B3C890;
+}
+
+/*TITULOS*/
+h1 {
+     font-family: "robotoSlab";
+} 
+
+h2 {
+     font-family: "robotoSlab";
+}
+
+h3 {
+     font-family: "robotoSlab";
+}
+
+/*MAIN*/
+
+main {
+     background-color: #FFD56B;
+}
+
+
+.sobreNosotros {
+     text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+     background-color: #939B62;
+}
+
+footer>div>p {
+     font-family: "robotoSlab";
+}
+
+/*BOOTSTRAP*/
+
+.bg-nav {
+     background-color: white;
+}
+
+.bg-boton {
+     background-color: white;
+}
+
+.turnos {
+     background-color: #FFD56B;
+}
+
+.logo2 {
+     height: 300px;
+     width: 350px;
+}
+
+.logo1 {
+     height: 100px;
+     width: 125px;
+}
+
+.direccion {
+     width: 40px;
+     height: 40px;
+}
+
+.whatsapp {
+     width: 40px;
+     height: 40px;
+}
+
+.email {
+     width: 40px;
+     height: 40px;
+}
+
+.linkedin {
+     width: 40px;
+     height: 40px;
+}
+
+.instragram {
+     width: 40px;
+     height: 40px;
+}
+
+.facebook {
+     width: 40px;
+     height: 40px;
+}
+
+.text1 {
+     font-size: 20px;
+}
