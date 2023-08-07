@@ -40,49 +40,53 @@
 
      <main>
          <section>
-             <h1>Formulario de Contacto</h1>
-             <form action="" method="post">
-                 <select name="Motivo de Contacto" id="">
-                     <option value="mc">Motivo de Contacto</option>
-                     <option value="c">Consultas</option>
-                     <option value="t">Turnos</option>
-                     <option value="tn">Trabaja con Nosotros</option>
-                     <option value="sr">Sugerencias y/o Reclamaciones</option>
-                     <option value="ot">otro</option>
-                 </select>
-                 <div>
-                     <label for="">Nombre y Apellido</label>
-                     <input type="text">
-                 </div>
-                 <div>
-                     <label for="">Telefono</label>
-                     <input type="number">
-                 </div>
-                 <div>
-                     <label for="">Email</label>
-                     <input type="email">
-                 </div>
-                 <div>
-                     <label for="">Comentario</label>
-                     <textarea name="" id="" cols="30" rows="10"></textarea>
-                 </div>
-                 <div>
-                    <input type="button" value="Enviar">
-                 </div>
-             </form>
+             <h1 class="titulo1 text-center">Formulario de Contacto</h1>
+             <select class="form-select" aria-label="Default select example">
+                 <option selected>Motivo de Contacto</option>
+                 <option value="1">Consultas</option>
+                 <option value="2">Turnos</option>
+                 <option value="3">Trabaja con Nosotros</option>
+                 <option value="2">Sugerencias y/o Reclamaciones</option>
+                 <option value="3">Otros</option>
+             </select>
+             <div class="mb-3">
+                 <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+             </div>
+             <div class="mb-3">
+                 <label for="formGroupExampleInput2" class="form-label">Apellido</label>
+                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
+             </div>
+             <div class="mb-3">
+                 <label for="formGroupExampleInput" class="form-label">Telefono</label>
+                 <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Telefono">
+             </div>
+             <div class="mb-3">
+                 <label for="formGroupExampleInput2" class="form-label">Correo electronico</label>
+                 <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Correo electronico">
+             </div>
+             <div class="mb-3">
+                 <label for="formGroupExampleInput" class="form-label">Contraseña</label>
+                 <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Contraseña">
+             </div>
+             <div class="mb-3">
+                 <label for="formGroupExampleInput" class="form-label">Comentario</label>
+                 <textarea class="form-control" placeholder="Comentario" id="floatingTextarea"></textarea>
+             </div>
+             <button type="button" class="btn btn-light mb-2">Enviar</button>
          </section>
-         <section>
-             <h2>Información de Contacto</h2>
-             <div>
+         <section class="border-top border-bottom border-black mb-3 row">
+             <div class="col-lg-6 col-12 text-start ps-4">
+                 <h2 class="titulo2">Información de Contacto</h2>
                  <p>Horario de atención: Lunes a Viernes de 8 a 20hs</p>
                  <p>Telefonos: tel 4552424 Whatsapp 3413555555</p>
                  <p>Mail: clinicabienestardelser@gmail.com</p>
                  <p>Dirección: Dorrego 751,Rosario,Santa Fe</p>
              </div>
-         </section>
-         <section>
-             <h3>Ubicación</h3>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.2713507917424!2d-60.65157102462497!3d-32.9438445735944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab3fad7998b1%3A0x188971a73d86c6de!2sDorrego%20751%2C%20S2000%20Rosario%2C%20Santa%20Fe%2C%20Argentina!5e0!3m2!1ses!2ses!4v1688982995843!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Ir a Ubicación</iframe>
+             <div class="col-lg-6 col-12">
+                 <h3 class="titulo3">Ubicación</h3>
+                 <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.2713507917424!2d-60.65157102462497!3d-32.9438445735944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab3fad7998b1%3A0x188971a73d86c6de!2sDorrego%20751%2C%20S2000%20Rosario%2C%20Santa%20Fe%2C%20Argentina!5e0!3m2!1ses!2ses!4v1688982995843!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Ir a Ubicación</iframe>
+             </div>
          </section>
      </main>
 
