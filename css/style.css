@@ -41,15 +41,26 @@ h3 {
      font-family: "robotoSlab";
 }
 
+.titulo1 {
+     font-size: 35px;
+}
+
+.titulo2 {
+     font-size: 25px;
+}
+
+.titulo3 {
+     font-size: 25px;
+}
+
 /*MAIN*/
 
 main {
      background-color: #FFD56B;
 }
 
-
-.sobreNosotros {
-     text-align: center;
+.listapte {
+     list-style-type: none;
 }
 
 /*FOOTER*/
