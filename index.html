@@ -9,12 +9,13 @@
      <link rel="shortcut icon" href="./imagenes/LogoClinicaIco.ico" type="image/x-icon">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="sass/style.scss">
      <title>Bienestar del Ser</title>
 </head>
 
 <body>
 
-     <header>
+     <header class="overflow-x-hidden mx-1">
          <div class="d-flex container-fluid">
              <h1 class="text1 col-lg-12 col-12 d-flex justify-content-center align-items-center">Clinica Bienestar del Ser</h1>
          </div>
@@ -38,17 +39,17 @@
          </nav>
      </header>
      
-     <main>
-         <section class="turnos container-fluid">
-             <h2 class="titulo2 text-center">Turnos</h2>
-             <div class="text-center d-flex justify-content-around">
-                 <button class="btn btn-secondary btn-lg btn btn-outline-dark bg-boton mb-2">WhatsApp</button>
-                 <button class="btn btn-secondary btn-lg btn btn-outline-dark bg-boton mb-2">Online</button>
-                 <button class="btn btn-secondary btn-lg btn btn-outline-dark bg-boton mb-2">Central de Turnos</button>
+     <main class="overflow-x-hidden mx-1">
+         <section class="turnos container-fluid border border-dark col-lg-12 col-12">
+             <h2 class="titulo2 text-center mb-4 mt-2">Turnos</h2>
+             <div class="text-center d-flex justify-content-around" style="height: 150px;">
+                 <button class="btn btn-secondary btn-lg btn btn-outline-dark bg-boton mb-2 h-50 d-inline-block" style="width: 200px;">WhatsApp</button>
+                 <button class="btn btn-secondary btn-lg btn btn-outline-dark bg-boton mb-2 h-50 d-inline-block" style="width: 200px;">Online</button>
+                 <button class="btn btn-secondary btn-lg btn btn-outline-dark bg-boton mb-2 h-50 d-inline-block" style="width: 200px;">Central de Turnos</button>
              </div>
          </section>
-         <section class="imgfrase row mb-4 d-flex">
-             <img src="./imagenes/img-logo-terap-alt.jpg" alt="logoSaludAlternativa" class="logo2 col-lg-6 col-12 mb-2">
+         <section class="imgfrase row mb-4 mt-4 d-flex">
+             <img src="./imagenes/Logo.png" alt="logoSaludAlternativa" class="logo2 col-lg-6 col-12 mb-2">
              <div class="col-lg-6 col-12">
                  <h3 class="frase text-center d-flex justify-content-end">"La vida no es estabilidad, es saber andar en equilibrio"</h3>
                  <p class="parrafoIndex text-center">En Bienestar del Ser priorizamos tu Salud. Por eso brindamos atención en salud más allá de las terapias tradicionales considerando distintas terapias alternativas. 
@@ -57,7 +58,7 @@
          </section>
      </main>
 
-     <footer>
+     <footer class="mx-1">
          <div class="d-flex container-fluid justify-content-evenly align-items-center row">
              <div class="d-flex col-lg-4 col-4">
                  <p>Bienestar del Ser</p>
