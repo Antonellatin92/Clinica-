@@ -1,0 +1,127 @@
+
+@import "partials/variables";
+@import "partials/body-footer";
+
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+@font-face {
+      font-family: "robotoSlab";
+      src: url(../fuentes/RobotoSlab-Regular.ttf);
+}
+
+/* gama azules #6E85B7 #B2C8DF #C4D7E0 
+   gama azules mas oscuros #0A2647 #144272 #205295 #2C74B3
+   otra gama azules #91C8E4 #749BC2 #4682A9 */
+
+/*TITULOS*/
+
+h1 {
+      font-family: $font;
+}
+
+h2 {
+      font-family: $font;
+}
+
+h3 {
+      font-family: $font;
+}
+
+.titulo1 {
+      font-size: 35px;
+      background-color: $azulintermedio;
+}
+
+.titulo2 {
+      font-size: 25px;
+      background-color: $azulintermedio;
+}
+
+.titulo3 {
+      @extend .titulo2
+}
+
+/*BOOTSTRAP*/
+
+.bg-nav {
+      background-color: $blanco;
+}
+
+.bg-boton {
+      background-color: $blanco;
+}
+
+.turnos {
+      background-color: $azulintermedio;
+}
+
+.formulario {
+      background-color: $azulintermedio;
+}
+
+.logo2 {
+      height: 300px;
+      width: 350px;
+}
+
+.logo1 {
+      height: 90px;
+      width: 100px;
+}
+
+.direccion {
+      width: 40px;
+      height: 40px;
+}
+
+.whatsapp {
+      @extend .direccion
+}
+
+.email {
+      @extend .direccion
+}
+
+.linkedin {
+      @extend .direccion
+}
+
+.instragram {
+      @extend .direccion
+}
+
+.facebook {
+      @extend .direccion
+}
+
+.text1 {
+      font-size: 20px;
+}
+
+/*ANIMACIONES*/
+
+.boton:hover {
+      background-color: #144272;
+      color: $blanco;
+      font-weight:bold;
+      text-decoration: underline;
+      transition: 3s;
+}
+
+.publicidad {
+      color:#144272;
+      font-size: 30px;
+      font-family: $font;
+      font-style:italic;
+}
+
+/*DIV PAGINAS*/
+
+.infocontacto {
+      background-color: $azulintermedio;
+}
+

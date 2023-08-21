@@ -1,0 +1,33 @@
+/* HEADER*/
+
+header {
+     background-color: $azuloscuro;
+     ul {
+         list-style-type: none;
+         text-align: right;
+         font-family: $font;
+     }
+     a {
+         color: black;
+         text-decoration: none;
+         font-size: 30px;
+     }
+}
+
+/*MAIN*/
+
+main {
+      background-color: $blanco;
+     ul {
+         list-style-type: none;
+     }
+}
+
+/*FOOTER*/
+
+footer {
+     background-color: $azulclaro;
+     p {
+        font-family: $font;
+    }
+}

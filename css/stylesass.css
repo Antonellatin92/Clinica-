@@ -1,0 +1,125 @@
+/*COLORES*/
+/*TIPOGRAFIA*/
+/* HEADER*/
+header {
+  background-color: #6E85B7;
+}
+header ul {
+  list-style-type: none;
+  text-align: right;
+  font-family: "robotoSlab";
+}
+header a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/*MAIN*/
+main {
+  background-color: white;
+}
+main ul {
+  list-style-type: none;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #C4D7E0;
+}
+footer p {
+  font-family: "robotoSlab";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "robotoSlab";
+  src: url(../fuentes/RobotoSlab-Regular.ttf);
+}
+/* gama azules #6E85B7 #B2C8DF #C4D7E0 
+   gama azules mas oscuros #0A2647 #144272 #205295 #2C74B3
+   otra gama azules #91C8E4 #749BC2 #4682A9 */
+/*TITULOS*/
+h1 {
+  font-family: "robotoSlab";
+}
+
+h2 {
+  font-family: "robotoSlab";
+}
+
+h3 {
+  font-family: "robotoSlab";
+}
+
+.titulo1 {
+  font-size: 35px;
+  background-color: #B2C8DF;
+}
+
+.titulo2, .titulo3 {
+  font-size: 25px;
+  background-color: #B2C8DF;
+}
+
+/*BOOTSTRAP*/
+.bg-nav {
+  background-color: white;
+}
+
+.bg-boton {
+  background-color: white;
+}
+
+.turnos {
+  background-color: #B2C8DF;
+}
+
+.formulario {
+  background-color: #B2C8DF;
+}
+
+.logo2 {
+  height: 300px;
+  width: 350px;
+}
+
+.logo1 {
+  height: 90px;
+  width: 100px;
+}
+
+.direccion, .facebook, .instragram, .linkedin, .email, .whatsapp {
+  width: 40px;
+  height: 40px;
+}
+
+.text1 {
+  font-size: 20px;
+}
+
+/*ANIMACIONES*/
+.boton:hover {
+  background-color: #144272;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: 3s;
+}
+
+.publicidad {
+  color: #144272;
+  font-size: 30px;
+  font-family: "robotoSlab";
+  font-style: italic;
+}
+
+/*DIV PAGINAS*/
+.infocontacto {
+  background-color: #B2C8DF;
+}/*# sourceMappingURL=stylesass.css.map */
