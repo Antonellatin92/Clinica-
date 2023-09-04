@@ -13,9 +13,10 @@
       src: url(../fuentes/RobotoSlab-Regular.ttf);
 }
 
-/* gama azules #6E85B7 #B2C8DF #C4D7E0 
-   gama azules mas oscuros #0A2647 #144272 #205295 #2C74B3
-   otra gama azules #91C8E4 #749BC2 #4682A9 */
+/* #0781e4df #05BFDB  #27e5ec gamma azules que utilizo en pag
+   #6E85B7 #B2C8DF #C4D7E0 
+   #088395 #05BFDB #00FFCA
+*/
 
 /*TITULOS*/
 
@@ -34,15 +35,34 @@ h3 {
 .titulo1 {
       font-size: 35px;
       background-color: $azulintermedio;
+      font-weight: 600;
 }
 
 .titulo2 {
       font-size: 25px;
       background-color: $azulintermedio;
+      font-weight: 500;
+      text-align: center;
+}
+.titulo2a {
+      @extend .titulo2;
+}
+
+.titulo2b {
+      @extend .titulo2;
+      background-color: $blanco;
+      color:black;
+      text-align: start;
+      font-weight: 500;
+      text-decoration: underline;
 }
 
 .titulo3 {
-      @extend .titulo2
+      @extend .titulo2;
+}
+
+.titulo3a {
+      @extend .titulo2b;
 }
 
 /*BOOTSTRAP*/
@@ -73,33 +93,31 @@ h3 {
       width: 100px;
 }
 
+.facebook {
+      width: 45px;
+      height: 45px;
+}
+
 .direccion {
+      @extend .facebook;
+}
+
+.whatsapp {
       width: 40px;
       height: 40px;
 }
 
-.whatsapp {
-      @extend .direccion
-}
-
 .email {
-      @extend .direccion
+      @extend .whatsapp;
 }
 
 .linkedin {
-      @extend .direccion
+      width: 30px;
+      height: 30px;
 }
 
 .instragram {
-      @extend .direccion
-}
-
-.facebook {
-      @extend .direccion
-}
-
-.text1 {
-      font-size: 20px;
+      @extend .linkedin;
 }
 
 /*ANIMACIONES*/
@@ -108,7 +126,6 @@ h3 {
       background-color: #144272;
       color: $blanco;
       font-weight:bold;
-      text-decoration: underline;
       transition: 3s;
 }
 
@@ -121,7 +138,32 @@ h3 {
 
 /*DIV PAGINAS*/
 
-.infocontacto {
-      background-color: $azulintermedio;
+.text1 {
+      font-size: 20px;
+      font-family: $font;
 }
+ .boton {
+      color: black;
+      font-weight: 600;
+ }
+
+ .textfoot {
+      color: black;
+      font-family: $font;
+ }
+
+ .inicio {
+      font-size: 18px;
+      color: black;
+ }
+
+ .lista1 {
+      list-style-type:circle;
+ }
+
+.infocontacto {
+      color: black;
+      font-weight: 500;
+}
+
 
